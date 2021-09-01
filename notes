@@ -1,4 +1,7 @@
+# TODO: make a docker-compose file out of all this:
+
 1 curl localhost:4567/foo
 
+2 docker run -p 4567:4567 --network=dummynet --network-alias=dummycontainer dummy:latest
+  docker run -p 9090:9090 --network=dummynet -v /Users/gorg/my_stuff/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 
-2 docker run -p 9090:9090 -v /Users/gorg/my_stuff/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus

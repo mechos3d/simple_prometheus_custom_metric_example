@@ -2,7 +2,8 @@
 
 source 'https://rubygems.org'
 
-ruby '2.7.1'
+ruby '2.7.4'
 
-# Rails
 gem 'sinatra'
+# gem 'puma'
+gem "prometheus-client"
