@@ -1,0 +1,4 @@
+1 curl localhost:4567/foo
+
+
+2 docker run -p 9090:9090 -v /Users/gorg/my_stuff/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
